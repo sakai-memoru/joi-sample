@@ -1,0 +1,22 @@
+{
+  "name": "joi-sample",
+  "version": "1.0.0",
+  "description": "validate object",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "mocha ./test/*.*.js"
+  },
+  "keywords": [
+    "validator"
+  ],
+  "author": "sakai.memoru",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.6.3",
+    "joi": "^10.4.1"
+  }
+}
